@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="dashboard-page">
+    <h1>ADMIN DASHBOARD</h1>
+    <div class="card">
+        <h4> TOTAL USERS</h4>
+        <p>4</p>
+    </div>
+    <div class="card">
+        <h4> TOTAL ORDERS</h4>
+        <p>100</p>
+    </div>
+    <div class="card">
+        <h4> TOTAL REVENUE</h4>
+        <p>21000</p>
+    </div>
+    <div class="card">
+        <h4> TOTAL PRODUCTS</h4>
+        <p>410000</p>
+    </div>
+    <br>
+    <input
+    type="search"
+    id="search"
+    placeholder="SEARCH"
+    >
+    <div class="filter-btn">
+        <button id="AllcityBtn">ALL</button> 
+         <button id="mumcityBtn">MUMBAI</button>
+          <button id="goacityBtn">GOA</button>
+           <button id="delcityBtn">DELHI</button>
+            <button id="AgracityBtn">AGRA</button>
+            <table>
+
+
+<tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Role</th>
+    <th>City</th>
+    <th>Details</th>
+</tr>
+
+<tr id="shivangirow">
+    <td>Shivangi</td>
+    <td>shivangi@gmail.com</td>
+    <td>student</td>
+    <td>Delhi</td>
+    
+    <td>
+
+<button
+onclick="showdetails(
+'Shivangi',
+'Delhi',
+'student',
+'shivangi@gmail.com'
+)">
+
+View
+
+</button>
+
+</td>
+
+ 
+</tr>
+
+<tr id="utkarshrow">
+    <td>Utkarsh</td>
+    <td>utkarsh@gmail.com</td>
+    <td>tutor</td>
+    <td>Agra</td>
+    <td>
+
+<button
+onclick="showdetails(
+'utkarsh',
+'agra',
+'tutor',
+'utkarsh@gmail.com'
+)">
+
+View
+
+</button>
+
+</td>
+</tr>
+
+<tr id="simranrow">
+    <td>Simran</td>
+    <td>simran@gmail.com</td>
+    <td>Mentor</td>
+    <td>Mumbai</td>
+    <td>
+
+<button
+onclick="showdetails(
+'simran',
+'mumbai',
+'mentor',
+'sim@gmail.com'
+)">
+
+View
+
+</button>
+
+</td>
+</tr>
+
+<tr id="aarurow">
+    <td>Aaru</td>
+    <td>aaru@gmail.com</td>
+    <td>Tutor</td>
+    <td>Goa</td>
+    <td>
+
+<button
+onclick="showdetails(
+'Aaru',
+'goa',
+'tutor',
+'aaru@gmail.com'
+)">
+
+View
+
+</button>
+
+</td>
+</tr>
+
+
+</table>
+<div id="userModal">
+
+    <h2>User Details</h2>
+
+    <p id="modalName"></p>
+    <p id="modalEmail"></p>
+    <p id="modalRole"></p>
+    <p id="modalCity"></p>
+
+    <button onclick="closeModal()">
+        Close
+    </button>
+
+</div>
+
+         
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

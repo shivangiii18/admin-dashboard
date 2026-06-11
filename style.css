@@ -1,0 +1,285 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+
+
+.login-page{
+
+    background-image:url("image2.jpeg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    min-height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+}
+.login-page h1{
+
+    color:black;
+
+    margin-bottom:30px;
+
+    font-size:40px;
+}
+
+.login-page input{
+
+    width:320px;
+
+    padding:12px;
+
+    margin:10px;
+
+    border-radius:8px;
+
+    border:none;
+}
+#login-btn{
+
+    background-color:#404E7C;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 20px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    margin-top:10px;
+}
+
+
+
+
+.dashboard-page{
+
+    background-color:#404E7C;
+
+    min-height:100vh;
+
+    padding:30px;
+}
+
+.dashboard-page h1{
+
+    color:white;
+    text-align: center;
+
+    margin-bottom:20px;
+}
+
+
+
+
+
+.card{
+
+    display:inline-block;
+
+    width:220px;
+
+    background-color:#71B48D;
+
+    color:#251F47;
+
+    padding:20px;
+
+    margin:10px;
+
+    border-radius:12px;
+
+    border:2px solid #251F47;
+
+    text-align:center;
+}
+
+.card h4{
+
+    margin-bottom:10px;
+}
+
+.card p{
+
+    font-size:28px;
+
+    font-weight:bold;
+}
+
+
+
+
+#search{
+
+    width:280px;
+
+    padding:10px;
+
+    border:none;
+
+    border-radius:8px;
+
+    margin-top:20px;
+
+    margin-bottom:15px;
+}
+
+
+
+
+
+button{
+
+    background-color:#251F47;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 15px;
+
+    border-radius:8px;
+    margin:5px;
+}
+
+
+
+
+
+.filter-btn{
+
+    margin-bottom:20px;
+}
+
+
+
+
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:white;
+
+    margin-top:20px;
+
+    border-radius:10px;
+
+    overflow:hidden;
+}
+
+th{
+
+    background-color:#251F47;
+
+    color:white;
+
+    padding:12px;
+}
+
+td{
+
+    padding:12px;
+
+    border:1px solid #ddd;
+
+    text-align:center;
+}
+
+
+
+
+
+#userModal{
+
+    position:fixed;
+
+    top:50%;
+
+    left:50%;
+
+    
+
+    background:white;
+
+    width:320px;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    border:3px solid #71B48D;
+
+    text-align:center;
+
+    display:none;
+}
+
+#userModal h2{
+
+    color:#251F47;
+
+    margin-bottom:15px;
+}
+
+#userModal p{
+
+    margin-bottom:10px;
+}
+
+
+
+
+
+.modal-img{
+
+    width:80px;
+
+    height:80px;
+
+    border-radius:50%;
+
+    margin-bottom:15px;
+}
+
+
+
+
+
+@media(max-width:768px){
+
+    .card{
+
+        width:100%;
+
+        display:block;
+    }
+
+    #search{
+
+        width:100%;
+    }
+
+    table{
+
+        font-size:14px;
+    }
+}
