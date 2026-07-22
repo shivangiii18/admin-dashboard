@@ -1,9 +1,13 @@
-A simple Admin Dashboard built using HTML, CSS and JavaScript.
-This project was created to practice basic frontend development concepts such as DOM manipulation, event handling, searching, filtering and page navigation.
+Admin Dashboard
+
+A responsive Admin Dashboard built using HTML, CSS, and JavaScript. This project was developed to practice core frontend development concepts, including responsive layouts, DOM manipulation, event handling, searching, filtering, and creating an intuitive user interface.
+
 Features
-1.Admin Login Page
-2.Dashboard with summary cards
-3.Search users by typing in the search box
-4.Filter users city-wise
-5.View user details in a popup modal
-6.Responsive and clean UI
+🔐 Admin Login Page
+📊 Dashboard with summary cards
+🔍 Search users in real time
+🌍 Filter users by city
+👤 View user details in a popup modal
+📱 Fully responsive design
+🎨 Clean and modern user interface
+⚡ Interactive user experience using JavaScript
